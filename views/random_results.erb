@@ -1,0 +1,31 @@
+    <h1>
+  Random Results
+</h1>
+
+<%= params %>
+<dl>
+  <dt>
+    Minimum
+  </dt>
+  <dd>
+    <%= @minimum %>
+  </dd>
+
+  <dt>
+    Maximum
+  </dt>
+  <dd>
+    <%= @maximum %>
+  </dd>
+
+  <dt>
+    Random Number
+  </dt>
+  <dd>
+    <%= @random_number %>
+  </dd>
+</dl>
+
+<a href="/random/new">
+  Pick another random number
+</a>
